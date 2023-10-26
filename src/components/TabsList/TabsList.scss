@@ -1,0 +1,39 @@
+.wrapper{
+    padding: 30px;
+    width: 500px;
+    min-width: fit-content;
+}
+.tabs-list{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.tab-content{
+    width: 100%;
+    height: 320px;
+    overflow: auto;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    animation: panel 0.8s;
+    border-radius: 0 4px 4px 4px;
+}
+
+.loading{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+@keyframes panel {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
