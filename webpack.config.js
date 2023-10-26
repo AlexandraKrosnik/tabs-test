@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   output: {
-    publicPath: "/webpack-demo/", // the bundle output path
+    publicPath: "/tabs-test/", // the bundle output path
     filename: "bundle.js", // the name of the bundle
   },
   plugins: [
